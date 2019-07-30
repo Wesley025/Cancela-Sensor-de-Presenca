@@ -13,7 +13,7 @@ void setup()
  
 void loop() 
 {
-  meuServo.attach(9);
+meuServo.attach(9);
   if(digitalRead(SensorPIR) == HIGH)
   {
     digitalWrite( 1, HIGH);
