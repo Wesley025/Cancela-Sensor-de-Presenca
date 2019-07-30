@@ -18,7 +18,7 @@ void loop()
   {
     digitalWrite( 1, HIGH);
     digitalWrite( 8, LOW);
-    for(int angulo=0; angulo<=90; angulo++) // Aumenta o angulo do servo ate chegar em 180 graus
+    for(int angulo=0; angulo<=90; angulo++) // Aumenta o angulo do servo ate chegar em 90 graus
     {
       meuServo.write(angulo);
       delay(100);
