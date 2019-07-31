@@ -34,3 +34,13 @@ meuServo.attach(9);
     digitalWrite( 8, HIGH);
   digitalWrite( 1, LOW);
 }  
+
+  Serial.begin(115200);
+  delay(10);
+  pinMode(ledPin, OUTPUT);
+  digitalWrite(ledPin, LOW);
+  pinMode(ledPin2, OUTPUT);
+  digitalWrite(ledPin2, LOW);
+  // Connect to WiFi network
+  Serial.println();
+
