@@ -33,4 +33,4 @@ meuServo.attach(9);
   if(digitalRead(SensorPIR) == LOW);
     digitalWrite( 8, HIGH);
   digitalWrite( 1, LOW);
-} 
+}  
